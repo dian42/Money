@@ -1,0 +1,555 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-bottom\tpadding-bottom"
+			],
+			[
+				"ca",
+				"caracter\tproperty"
+			],
+			[
+				"co",
+				"console\tvar"
+			],
+			[
+				"nav",
+				"navParams\tproperty"
+			],
+			[
+				"align-c",
+				"align-items-center\talign-items-center"
+			],
+			[
+				"te",
+				"text-center\ttext-center"
+			],
+			[
+				"text",
+				"text-wrap\ttext-wrap"
+			],
+			[
+				"pad",
+				"padding-left\tpadding-left"
+			],
+			[
+				"ro",
+				"routeSub\tproperty"
+			],
+			[
+				"import",
+				"import\tkeyword"
+			],
+			[
+				"for",
+				"forRoot\tmethod"
+			],
+			[
+				"Video",
+				"VideoDetailComponent\talias"
+			],
+			[
+				"is",
+				"is_following"
+			],
+			[
+				"Profile",
+				"ProfileManager"
+			],
+			[
+				"user",
+				"user_to_toggle"
+			],
+			[
+				"follo",
+				"followers"
+			],
+			[
+				"va",
+				"value\tAttr"
+			],
+			[
+				"get",
+				"get_object"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"get_obje",
+				"get_object_or_404"
+			],
+			[
+				"Item",
+				"ItemForm"
+			],
+			[
+				"_",
+				"__init__\tinit"
+			],
+			[
+				"form_",
+				"form_valid"
+			],
+			[
+				"Resta",
+				"RestaurantCreateView"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"H",
+				"HttpResponseRedirect"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"C",
+				"CATEGORIES"
+			],
+			[
+				"Res",
+				"RestarantLocationCreateForm"
+			],
+			[
+				"Cre",
+				"CreateView"
+			],
+			[
+				"R",
+				"RestaurantCreateForm"
+			],
+			[
+				"uni",
+				"unique_slug_generator"
+			],
+			[
+				"rest",
+				"rest_id"
+			],
+			[
+				"ge",
+				"get_queryset_or_404"
+			],
+			[
+				"res",
+				"restaurant_listview"
+			],
+			[
+				"m",
+				"max_length"
+			],
+			[
+				"home",
+				"home3"
+			],
+			[
+				"rand",
+				"randint"
+			],
+			[
+				"B",
+				"BASE_DIR"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"to",
+				"toggleState"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 393.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/diego/Dev/gemasRoby/Money"
+	],
+	"file_history":
+	[
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/app/app.module.ts",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/caracter/caracter.html",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/caracter/caracter.ts",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/detail/detail.ts",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/detail/detail.html",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/home/home.ts",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/home/home.html",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/detail/detail.scss",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/detail/detail.module.ts",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/.gitignore",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/package.json",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/app.json",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/server.js",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/providers/comic/comic.ts",
+		"/home/diego/Dev/marvelKunder/ionicMarvel/src/app/app.component.ts",
+		"/home/diego/Dev/ioTuto/nombreAplicacion/src/app/app.module.ts",
+		"/home/diego/Dev/ioTuto/nombreAplicacion/src/pages/home/home.ts",
+		"/home/diego/Dev/ioTuto/nombreAplicacion/src/app/main.ts",
+		"/home/diego/Dev/ngSrvup/client/src/app/app.module.ts",
+		"/home/diego/Dev/ngSrvup/client/src/app/app.component.html",
+		"/home/diego/Dev/ngSrvup/client/src/index.html",
+		"/home/diego/Dev/ngSrvup/client/src/app/video-list/video-list.component.html",
+		"/home/diego/Dev/ngSrvup/client/src/app/video-detail/video-detail.component.ts",
+		"/home/diego/Dev/ngSrvup/client/src/app/video-detail/video-detail.component.html",
+		"/home/diego/Dev/ngSrvup/client/src/app/app.routing.ts",
+		"/home/diego/Dev/ngSrvup/client/src/app/video-list/video-list.component.ts",
+		"/home/diego/Dev/ngSrvup/client/src/app/app.component.css",
+		"/home/diego/Dev/ngSrvup/client/src/app/app.component.spec.ts",
+		"/home/diego/Dev/ngSrvup/client/src/app/app.component.ts",
+		"/home/diego/Dev/tsSetup/tsconfig.json",
+		"/home/diego/Dev/tsSetup/index.html",
+		"/home/diego/Dev/tsSetup/dist/main.js",
+		"/home/diego/Dev/tsSetup/main.ts",
+		"/home/diego/.zshrc",
+		"/home/diego/.bashrc",
+		"/home/diego/.profile",
+		"/usr/bin/zsh",
+		"/home/diego/.bash_nvm",
+		"/home/diego/.bash_profile",
+		"/home/diego/Dev/trydjango1-11/src/profiles/urls.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/models.py",
+		"/home/diego/Dev/trydjango1-11/src/profiles/admin.py",
+		"/home/diego/Dev/trydjango1-11/src/muypicky/settings/base.py",
+		"/home/diego/Dev/trydjango1-11/src/muypicky/urls.py",
+		"/home/diego/Dev/trydjango1-11/src/profiles/templates/profiles/user.html",
+		"/home/diego/Dev/trydjango1-11/src/menus/views.py",
+		"/home/diego/Dev/trydjango1-11/src/profiles/shell_commands.py",
+		"/home/diego/Dev/trydjango1-11/src/menus/models.py",
+		"/home/diego/Dev/trydjango1-11/src/profiles/views.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/validators.py",
+		"/home/diego/Dev/trydjango1-11/src/menus/templates/menus/item_list.html",
+		"/home/diego/Dev/trydjango1-11/src/profiles/templates/profiles.html",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/admin.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/views.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/tests.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/apps.py",
+		"/home/diego/Dev/trydjango1-11/src/menus/forms.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/templates/restaurants/detail-update.html",
+		"/home/diego/Dev/trydjango1-11/src/menus/templates/menus/detail-update.html",
+		"/home/diego/Dev/trydjango1-11/src/menus/urls.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/urls.py",
+		"/home/diego/Dev/trydjango1-11/src/templates/form.html",
+		"/home/diego/Dev/trydjango1-11/src/templates/snippets/form-snippet.html",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/form.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_list.html",
+		"/home/diego/Dev/trydjango1-11/src/templates/snippets/nav.html",
+		"/home/diego/Dev/trydjango1-11/lib/python3.6/site-packages/django/views/generic/__init__.py",
+		"/home/diego/Dev/trydjango1-11/lib/python3.6/site-packages/django/views/generic/list.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/templates/restaurants/form.html",
+		"/home/diego/Dev/trydjango1-11/src/menus/templates/menus/item_detail.html",
+		"/home/diego/Dev/trydjango1-11/src/menus/admin.py",
+		"/home/diego/Dev/trydjango1-11/src/templates/registration/login.html",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/utils.py",
+		"/home/diego/Dev/trydjango1-11/.gitignore",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_detail.html",
+		"/home/diego/Dev/trydjango1-11/src/muypicky/old_settings.py",
+		"/home/diego/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurants_list.html",
+		"/home/diego/.config/sublime-text-3/Cache/Djaneiro/Syntaxes/CSS (Django).tmLanguage.cache",
+		"/home/diego/.config/sublime-text-3/Cache/Djaneiro/Syntaxes/Buildout Config.tmLanguage.cache",
+		"/home/diego/.config/sublime-text-3/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/home/diego/.config/sublime-text-3/Packages/User/HTML (Django).sublime-settings",
+		"/home/diego/.config/sublime-text-3/Packages/Djaneiro/Settings/Python (Django).sublime-settings",
+		"/home/diego/.config/sublime-text-3/Packages/User/Python (Django).sublime-settings",
+		"/home/diego/Dev/trydjango1-11/src/requirements.txt",
+		"/home/diego/Dev/trydjango1-11/src/templates/base.html",
+		"/home/diego/Dev/trydjango1-11/src/templates/about.html",
+		"/home/diego/Dev/trydjango1-11/src/templates/snippets/sidebar.html",
+		"/home/diego/Dev/trydjango1-11/src/templates/contact.html",
+		"/home/diego/Dev/trydjango1-11/src/templates/home.html",
+		"/home/diego/Dev/trydjango1-11/muypicky.sublime-project",
+		"/home/diego/Dev/trydjango1-11/lib/python3.5/site-packages/django/contrib/gis/gdal/geomtype.py",
+		"/home/diego/Dev/trydjango1-11/src/templates/snippets/css.html",
+		"/home/diego/Dev/trydjango1-11/src/templates/snippets/js.html",
+		"/home/diego/Dev/trydjango1-11/src/muypicky/__init__.py",
+		"/home/diego/Dev/trydjango1-11/src/muypicky/settings/__init__.py",
+		"/home/diego/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/home/diego/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/diego/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/diego/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/diego/Dev/trydjango1-11/src/muypicky/settings/local.py",
+		"/home/diego/Dev/trydjango1-11/src/muypicky/settings/production.py",
+		"/home/diego/Documentos/Proyectos Django/mysite/polls/models.py",
+		"/home/diego/Documentos/Proyectos Django/mysite/mysite/settings.py",
+		"/home/diego/Documentos/Proyectos Django/mysite/manage.py",
+		"/home/diego/Documentos/Proyectos Django/mysite/polls/apps.py",
+		"/home/diego/Documentos/Proyectos Django/mysite/mysite/urls.py",
+		"/home/diego/Documentos/Proyectos Django/mysite/polls/urls.py",
+		"/home/diego/Documentos/Proyectos Django/mysite/polls/views.py",
+		"/home/diego/Documentos/Proyectos React/ChatBot/holaMundo/myService/serverless.yml",
+		"/home/diego/Documentos/Proyectos React/ChatBot/holaMundo/myService/handler.js",
+		"/home/diego/Documentos/Proyectos React/ChatBot/demo-ripley2/serverless.yml",
+		"/media/diego/F0E9-334E/PRUEBA3.CSV",
+		"/media/diego/F0E9-334E/PRUEBA4.CSV",
+		"/media/diego/F0E9-334E/\u0001.\u0002\u0001",
+		"/media/diego/F0E9-334E/\u0002\u0001.\u0004\u0002\u0001",
+		"/media/diego/F0E9-334E/\b\u0004\u0002\u0001.\u0010\b\u0004",
+		"/media/diego/F0E9-334E/\u0010\b\u0004\u0002\u0001. \u0010\b",
+		"/media/diego/F0E9-334E/Ç@ \u0010\b\u0004\u0002\u0001",
+		"/media/diego/51DB1AC531C13EDD/Users/Diego/Desktop/Arduino Pruebas/Ejemplo Reloj/ejemplo reloj",
+		"/home/diego/Documentos/Proyectos React/ChatBot/demo-ripley2/handler.js",
+		"/home/diego/Documentos/Proyectos React/ChatBot/demo-ripley/._.babelrc",
+		"/home/diego/Documentos/Proyectos React/ChatBot/demo-ripley/._.DS_Store",
+		"/home/diego/Documentos/Proyectos React/ChatBot/holaMundo/myService/.serverless/cloudformation-template-create-stack.json",
+		"/home/diego/Documentos/Proyectos React/ChatBot/holaMundo/myService/.gitignore",
+		"/home/diego/.aws/config",
+		"/home/diego/Descargas/credentials.csv",
+		"/home/diego/.aws/credentials",
+		"/home/diego/Documentos/Proyectos React/ChatBot/holaMundo/accessKeys.csv"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/diego",
+			"/home/diego/Dev/trydjango1-11/lib/python3.6"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"colecciones",
+			"character",
+			"params",
+			"loatDetailComic",
+			"list",
+			"export",
+			"JAVA_HOME",
+			"source",
+			"zsh",
+			"user",
+			"User",
+			"user",
+			"username",
+			"print",
+			">\t",
+			"redirect",
+			"created",
+			"Profile",
+			"profile",
+			"created",
+			"username",
+			"istance",
+			"object",
+			"ListView",
+			"list.html",
+			"ListView",
+			"LoginRequiredMixin",
+			"tittle",
+			"h2",
+			"d",
+			"obj",
+			"object",
+			"exclues",
+			"Contents",
+			"contents",
+			"get_query_set",
+			"ListView",
+			"title",
+			"form",
+			"id",
+			"max_length=120, null=True, blank=True",
+			"models",
+			"home3",
+			"HTML"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "money.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
