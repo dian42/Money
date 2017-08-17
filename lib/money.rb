@@ -57,34 +57,58 @@ class Money < Config
 		unless x.currency == @currency
 			@@configure.each do |config| 
 
-				@amount += config.conversions[@currency] * x.amount  if config.default_currency == x.currency	
+				return "#{@amount + config.conversions[@currency] * x.amount} #{@currency}"  if config.default_currency == x.currency	
 			end
-		else
-			@amount += x.amount 
 		end
-		return  self
+		return "#{@amount + x.amount} #{@currency}" 
 	end
 
 	def -(x)
 		unless x.currency == @currency
 			@@configure.each do |config| 
 
-				@amount -= config.conversions[@currency] * x.amount  if config.default_currency == x.currency	
+				return "#{@amount - config.conversions[@currency] * x.amount} #{@currency}"  if config.default_currency == x.currency	
 			end
-		else
-			@amount -= x.amount 
 		end
-		return  self
+		return "#{@amount = x.amount} #{@currency}"
 	end
 
 	def /(x)
-		@amount /= x
-		return  self
+		return "#{@amount / x} #{@currency}"
 	end
 
 	def *(x)
-		@amount *= x
-		return  self
+		return "#{@amount * x} #{@currency}"
+	end
+
+	def ==(x)
+		if not x.currency == @currency
+			@@configure.each do |config| 
+				return ( config.default_currency == x.currency and @amount == (x.amount * config.conversions[@currency]) )
+			end
+		end
+		return ( x.amount == @amount )
+		
+	end
+
+	def >(x)
+		if not x.currency == @currency
+			@@configure.each do |config| 
+				return ( config.default_currency == x.currency and @amount > (x.amount * config.conversions[@currency]) )
+			end
+		end
+		return ( @amount > x.amount )
+		
+	end
+
+	def <(x)
+		if not x.currency == @currency
+			@@configure.each do |config| 
+				return ( config.default_currency == x.currency and @amount < (x.amount * config.conversions[@currency]) )
+			end
+		end
+		return ( @amount < x.amount )
+		
 	end
 
 	def self.configure
