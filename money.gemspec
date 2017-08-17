@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'operation currency'
+  s.name        = 'operation_currency'
   s.version     = '0.0.0'
   s.date        = '2017-08-17'
   s.summary     = "This is a simple change of currency"
