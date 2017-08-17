@@ -20,17 +20,36 @@ class Money < Config
 				debe ser un numero Ej: 50 , 5.05"
 		end
 		if name.is_a? String
-			@@configure.each do |config|
-				if config.default_currency == name
-					@currency = name 
-				else
-					raise "El parametro #{name} no se encuentra en la configuracion"
-				end
+			@@configure.each do |config| 
+				next unless config.default_currency == name
+				@currency = name 
+				return
 			end
-
+			raise "El parametro #{name} no se encuentra en la configuracion"
 		else
 			raise "No es posible instanciar el objeto, #{name} es un #{name.class}, 
-				debe ser un numero Ej: 50 , 5.05"
+				debe ser un string Ej: \"EUR\" , \"USD\", \"Bitcoin\""
+		end
+	end
+
+	def inspect
+		"#{@amount} #{@currency}"
+	end
+
+	def convert_to(name)
+		if name.is_a? String
+			@@configure.each do |config| 
+				next unless config.default_currency == currency
+
+				@amount = config.conversions[name] * @amount
+				@currency = name 
+
+				return self
+			end
+			raise "El parametro #{name} no se encuentra en la configuracion"
+		else
+			raise "No es posible realizar la conversion  de #{@currency} a #{name} este no se encuentra en la configuracion
+				Ej: \"EUR\" , \"USD\", \"Bitcoin\""
 		end
 	end
 
@@ -38,15 +57,3 @@ class Money < Config
 		@@configure
 	end
 end
-
-
-# Money.configure.each do |config|
-# 	puts "config.default_currency #{config.default_currency }
-# 	config.conversion = { \n"
-# 	config.conversions.each do |key, value|
-# 		puts "#{key} => #{value}"
-# 	end
-# 	puts "}"
-# # end
-# a = Money.new(50,"aa")
-# puts a.currency
