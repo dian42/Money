@@ -41,7 +41,7 @@ class Money < Config
 			@@configure.each do |config| 
 				next unless config.default_currency == currency
 
-				@amount = config.conversions[name] * @amount
+				@amount = (config.conversions[name] * @amount *100).round/100.0
 				@currency = name 
 
 				return self
@@ -56,21 +56,27 @@ class Money < Config
 	def +(x)
 		unless x.currency == @currency
 			@@configure.each do |config| 
-
-				return "#{@amount + config.conversions[@currency] * x.amount} #{@currency}"  if config.default_currency == x.currency	
+				if config.default_currency == x.currency
+					aux = ( (@amount + config.conversions[@currency] * x.amount) * 100).round/100.0
+					return "#{aux} #{@currency}"	
+				end
 			end
 		end
-		return "#{@amount + x.amount} #{@currency}" 
+		aux = ((@amount + x.amount) * 100).round/100.0
+		return "#{aux} #{@currency}" 
 	end
 
 	def -(x)
 		unless x.currency == @currency
 			@@configure.each do |config| 
-
-				return "#{@amount - config.conversions[@currency] * x.amount} #{@currency}"  if config.default_currency == x.currency	
+				if config.default_currency == x.currency	
+					aux = ((@amount - config.conversions[@currency] * x.amount) * 100).round/100.0
+					return "#{aux} #{@currency}"  
+				end
 			end
 		end
-		return "#{@amount = x.amount} #{@currency}"
+		aux = ((@amount - x.amount) * 100).round/100.0
+		return "#{aux} #{@currency}"
 	end
 
 	def /(x)
