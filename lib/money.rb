@@ -53,6 +53,40 @@ class Money < Config
 		end
 	end
 
+	def +(x)
+		unless x.currency == @currency
+			@@configure.each do |config| 
+
+				@amount += config.conversions[@currency] * x.amount  if config.default_currency == x.currency	
+			end
+		else
+			@amount += x.amount 
+		end
+		return  self
+	end
+
+	def -(x)
+		unless x.currency == @currency
+			@@configure.each do |config| 
+
+				@amount -= config.conversions[@currency] * x.amount  if config.default_currency == x.currency	
+			end
+		else
+			@amount -= x.amount 
+		end
+		return  self
+	end
+
+	def /(x)
+		@amount /= x
+		return  self
+	end
+
+	def *(x)
+		@amount *= x
+		return  self
+	end
+
 	def self.configure
 		@@configure
 	end
