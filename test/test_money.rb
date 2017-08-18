@@ -4,8 +4,8 @@ require 'money'
 class MoneyTest < Minitest::Test
 
   def setup
-  @fifty_eur = Money.new(50, 'EUR')
-  @twenty_dollars = Money.new(20, 'USD')
+    @fifty_eur = Money.new(50, 'EUR')
+    @twenty_dollars = Money.new(20, 'USD')
   end
 
   def test_amount

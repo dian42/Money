@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"x",
+				"x"
+			],
+			[
+				"am",
+				"amount"
+			],
+			[
+				"con",
+				"conversions"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"confi",
+				"configure"
+			],
+			[
 				"pa",
 				"padding-bottom\tpadding-bottom"
 			],
@@ -179,6 +203,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "lib/money.rb",
+			"settings":
+			{
+				"buffer_size": 3127,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/test_money.rb",
+			"settings":
+			{
+				"buffer_size": 1259,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "money.gemspec",
+			"settings":
+			{
+				"buffer_size": 561,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Rakefile",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -249,10 +308,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/diego/Dev/gemasRoby/Money"
+		"/home/diego/Dev/gemasRoby/Money",
+		"/home/diego/Dev/gemasRoby/Money/lib",
+		"/home/diego/Dev/gemasRoby/Money/test"
 	],
 	"file_history":
 	[
+		"/home/diego/Dev/gemasRoby/Money/money.gemspec",
+		"/home/diego/Dev/gemasRoby/Money/lib/money.rb",
 		"/home/diego/Dev/marvelKunder/ionicMarvel/src/app/app.module.ts",
 		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/caracter/caracter.html",
 		"/home/diego/Dev/marvelKunder/ionicMarvel/src/pages/caracter/caracter.ts",
@@ -378,9 +441,7 @@
 		"/home/diego/Documentos/Proyectos React/ChatBot/holaMundo/myService/.serverless/cloudformation-template-create-stack.json",
 		"/home/diego/Documentos/Proyectos React/ChatBot/holaMundo/myService/.gitignore",
 		"/home/diego/.aws/config",
-		"/home/diego/Descargas/credentials.csv",
-		"/home/diego/.aws/credentials",
-		"/home/diego/Documentos/Proyectos React/ChatBot/holaMundo/accessKeys.csv"
+		"/home/diego/Descargas/credentials.csv"
 	],
 	"find":
 	{
@@ -400,6 +461,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"conversion",
+			"value",
 			"colecciones",
 			"character",
 			"params",
@@ -461,8 +524,125 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "lib/money.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test/test_money.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "money.gemspec",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Rakefile",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
